@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fa746e9-0054-4553-81a6-583c95b5f700" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ros/src/tl_detector/tl_detector.py" afterPath="$PROJECT_DIR$/ros/src/tl_detector/tl_detector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ros/src/twist_controller/dbw_node.py" afterPath="$PROJECT_DIR$/ros/src/twist_controller/dbw_node.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ros/src/twist_controller/lowpass.py" afterPath="$PROJECT_DIR$/ros/src/twist_controller/lowpass.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ros/src/twist_controller/pid.py" afterPath="$PROJECT_DIR$/ros/src/twist_controller/pid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ros/src/twist_controller/twist_controller.py" afterPath="$PROJECT_DIR$/ros/src/twist_controller/twist_controller.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ros/src/twist_controller/yaw_controller.py" afterPath="$PROJECT_DIR$/ros/src/twist_controller/yaw_controller.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ros/src/waypoint_follower/include/pure_pursuit_core.h" afterPath="$PROJECT_DIR$/ros/src/waypoint_follower/include/pure_pursuit_core.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ros/src/waypoint_updater/waypoint_updater.py" afterPath="$PROJECT_DIR$/ros/src/waypoint_updater/waypoint_updater.py" />
-    </list>
+    <list default="true" id="6fa746e9-0054-4553-81a6-583c95b5f700" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +171,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="882" />
-    <option name="y" value="1118" />
+    <option name="y" value="1119" />
     <option name="width" value="1694" />
     <option name="height" value="963" />
   </component>
@@ -368,7 +359,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="882" y="1118" width="1694" height="963" extended-state="0" />
+    <frame x="882" y="1119" width="1694" height="963" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21192443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

@@ -9,6 +9,16 @@
 
 This is the Capstone project for Udacity Self Driving Car Nanodegree. This system integration project implements and integrates the Perception, Planning, and Control modules using the Robot Operating System (ROS) in order to program a real self-driving car.
 
+## Team
+---
+
+This is an **Individual Submission**.
+
+| Name         | Email Id	           | 
+|:------------:|:---------------------:| 
+| Ashish Naik  | ashish.usf@gmail.com  | 
+
+
 ## System Architecture
 ---
 ![][image0]

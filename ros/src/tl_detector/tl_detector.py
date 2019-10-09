@@ -32,6 +32,7 @@ class TLDetector(object):
         self.base_waypoints_2d = None
         self.base_waypoints_kdtree = None
         self.camera_image = None
+        self.has_image = False
         self.all_traffic_lights = []
 
         self.state = TrafficLight.UNKNOWN
@@ -90,10 +91,10 @@ class TLDetector(object):
                 # if initialization is complete, publish the final waypoints for this cycle
                 if self.init_complete:
 
-                    # # TODO: Ashish uncomment camera image check
-                    # # check whether we have an image
-                    # if not self.camera_image:
-                    #     continue
+                    # TODO: Ashish uncomment camera image check
+                    # check whether we have an image
+                    if not self.has_image or not self.camera_image:
+                        continue
 
                     stop_line_wp_idx, state = self.process_traffic_lights()
 
@@ -161,7 +162,7 @@ class TLDetector(object):
         # rospy.loginfo("TL_DETECTOR: image_cb called...")
 
         self.has_image = True
-        self.camera_image = msg
+        self.camera_image = msg.data
 
         ## TODO: Ashish - remove - moved to TL Detector state machine
         # light_wp, state = self.process_traffic_lights()
